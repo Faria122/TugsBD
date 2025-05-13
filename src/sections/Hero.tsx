@@ -43,7 +43,7 @@ export const HeroSection = () => {
           </div>
         </div>
         <div className='max-w-lg mx-auto'>
-          <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide px-15'>Where there's a weld, there's a way</h1>
+          <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide px-15'>Where there&apos;s a weld, there&apos;s a way</h1>
           <p className='mt-4 text-center text-white/60 md:text-lg'>To be recognised as a leading general contracting company of
             choice providing solutions and delivering projects of any magnitude.
             We aim to create a successful partnership with our clients and exceed
@@ -59,7 +59,7 @@ export const HeroSection = () => {
           </button>
           <button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl'>
             <span>✋</span>
-            <span>Let's Connect.</span>
+            <span>Let&apos;s Connect.</span>
           </button>
         </div>
       </div>
