@@ -2,17 +2,7 @@ import StarIcon from "@/assets/icons/star.svg"
 
 
 const words = [
-  "Performance",
-  "Accessible",
-  "Secure",
-  "Interactive",
-  "Scalable",
-  "User Friendly",
-  "Responsive",
-  "Maintainable",
-  "Search Optimized",
-  "Usable",
-  "Reliable",
+"Safety","Quality", "Planning", "Scheduling", "Budgeting", "Capital Justification", "Condition Monitoring", "Substitution Strategies", "Risk Management", "Safety Practices"
 ]
 
 

@@ -1,4 +1,10 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
+import TankFoundation from '@/assets/images/Image2.jpg';
+import AsiaticOil from '@/assets/images/Image3.jpg';
+import JamunaOil from '@/assets/images/Image4 (2).jpg';
+import JettyPipeline from '@/assets/images/Image4.jpg';
+import TankTerminal from '@/assets/images/Image5.jpg';
+
+
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
@@ -11,40 +17,40 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Tank Foundation",
+    year: "2008",
+    title: "Asiatic Oil Company North Potenga, Chittagong",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Industrial sheds an structures." },
+      { title: "Stairs, Handrails and Ladders." },
+      { title: "Access Platforms" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    //link: "https://youtu.be/4k7IdSLxh6w",
+    image: TankFoundation,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "New Storage Tank",
+    year: "2012",
+    title: "Standard Asiatic Oil Company",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Space Frames" },
+      { title: "Support structures for equipments/process plants." },
+      { title: "Support structures in steel for all types of civil construction." },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+   // link: "https://youtu.be/7hi5zwO75yc",
+    image: AsiaticOil,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Jetty Pipeline",
+    year: "2013",
+    title: "Standard Asiatic Oil Company",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Customized and Integrated Solution." },
+      { title: "Fabrication and erection." },
+      { title: "All kinds of fabrication and erection drawings." },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    //link: "https://youtu.be/Z7I5uSRHMHg",
+    image: JettyPipeline,
   },
 ];
 
@@ -52,25 +58,26 @@ export const ProjectsSection = () => {
   return (
     <section className="pb-16 lg:py-24">
       <div className="container">
-        <SectionHeader 
+       {/* <SectionHeader 
             eyebrow="Happy Clients" 
             title="What Clients say about me" 
             description="Don't just take my word for it. See what my clients have to say about my work."
-            />
+            />*/}
 
-        <div className="flex justify-center">
+        {/*<div className="flex justify-center">
           <p className="uppercase font-semibold tracking-widest 
           bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent 
           bg-clip-text text-center">
             Real-world Results
           </p>
-        </div>
+        </div>*/}
+
         <h2 className="font-serif text-3xl text-center mt-6 md:text-5xl">
-          Featured Projects
+          Major Projects
         </h2>
         <p className="text-center md:text-lg lg:text-xl 
         text-white/60 mt-4 max-w-md mx-auto">
-          See How I transformed concepts into engaging experiences.
+          To be recognised as a leading general contracting company of choice providing solutions and delivering projects of any magnitude.
         </p>
         <div className="mt-10 md:mt-20 flex flex-col gap-20">
           {portfolioProjects.map(project => (
@@ -100,14 +107,14 @@ export const ProjectsSection = () => {
                       </li>
                     ))}
                   </ul>
-                  <a href={project.link}>
+                  {/*<a href={project.link}>
                     <button className="bg-white text-gray-950 h-12 w-full px-6
                 rounded-xl font-semibold inline-flex items-center md:w-auto
                 justify-center gap-2 mt-8">
                       <span>View Live Site</span>
                       <ArrowUpRightIcon className="size-4" />
                     </button>
-                  </a>
+                  </a>*/}
                 </div>
                 <div className="relative">
                   <Image
